@@ -4,7 +4,7 @@ const expect = chai.expect;
 const Turn = require('../src/Turn');
 const Card = require('../src/Card');
 
-describe('Card', () => {
+describe('Turn', () => {
 
   let card
   let turn
@@ -38,5 +38,9 @@ describe('Card', () => {
 
   it('should be able to check if the guess equals the correct answer', function() {
   	expect(turn.evaluateGuess()).to.equal(false);
+  });
+
+  it('should return a message based on whether the guess is correct or not', function() {
+  	expect(turn.giveFeedback()).to.equal('incorrect!');
   });
 });
