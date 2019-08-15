@@ -19,3 +19,8 @@ When the game is functioning appropriately, you will be prompted for each questi
 3. To enter the flashcards-starter folder, enter cd flashcards-starter in your terminal 
 4. Once inside the folder, run npm install 
 5. After the install is complete, enter node index.js to start the game
+
+
+## Contributors
+
+#### [Sam Coleman](https://github.com/SamuelColeman)
